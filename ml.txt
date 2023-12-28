@@ -1,0 +1,31 @@
+*labels*:
+Is the thing we're predicting, the y in the (x,y) variable in simple linear regression. the label could be the future price of
+something or just any random thing
+
+*Features*: 
+ A feature is an input variable that we're using to train our y variable.
+a simple ML project could use a single feature to millions or billions of features specified as
+x1,x2,x3,x4,.....,xn
+
+*labeled examples*:
+A labeled example includes both label and feature(x)  {features, label}: (x, y)
+
+*unlabeled examples*:
+an unlabeled example contains features but not the label {features, ?}: (x, ?)
+
+
+Use labeled examples to train the model. 
+In our spam detector example, the labeled examples would be individual emails that users have explicitly marked as "spam" or "not spam."
+Once we've trained our model with labeled examples, we use that model to predict the label on unlabeled examples
+
+Models:
+A model defined the relationship between a label and a feature.
+Highlight of a model's life
+
+*Training*:
+Training means creating or learning the model. We do this by showing the model labeled examples (that both feature and labels)
+to enable the model gradually learn the relationship betweenTHE Features and the label.
+
+*Inference*:
+Inference means applying the trainedmodel to unlabeled examples.
+That is, us the trained modelto make predictions (y).
